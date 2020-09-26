@@ -40,11 +40,14 @@
 }
 
 .menu-item { /* Este qué pex ???? ------------------- ? ? ? ? ? */
-    display: inline;
+    /* display: inline-block; */
     margin-right: 25px;
     margin-left: 10px;
 }
-
+.menu-item li{
+    display: inline-block;
+    padding: 0 5px;
+}
 main {
     margin-top: 285px;
     text-align: center;
